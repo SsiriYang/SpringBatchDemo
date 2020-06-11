@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-batch
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jrxitem?characterEncoding=utf-8&useOldAliasMetadataBehavior=true
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
