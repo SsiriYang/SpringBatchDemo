@@ -17,7 +17,7 @@ public class CustTranc {
     /**
      * 客户号
      */
-    private Integer custId;
+    private Integer cust_Id;
 
     /**
      * 客户姓名
@@ -54,7 +54,7 @@ public class CustTranc {
      * @return cust_id 客户号
      */
     public Integer getCustId() {
-        return custId;
+        return cust_Id;
     }
 
     /**
@@ -62,7 +62,7 @@ public class CustTranc {
      * @param custId 客户号
      */
     public void setCustId(Integer custId) {
-        this.custId = custId;
+        this.cust_Id = custId;
     }
 
     /**

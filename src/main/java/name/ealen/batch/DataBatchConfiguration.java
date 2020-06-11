@@ -160,7 +160,7 @@ public class DataBatchConfiguration {
                 if(cust_id==access.getCustId()){
                     cust_id=access.getCustId();
                     surname=access.getSurname();
-                    trans_date = access.getTxnDatetime();
+                    trans_date =access.getTxnDatetime();
                     txn_datetime = access.getTxnDatetime().toString().substring(0,10);
                     String dates = access.getTxnDatetime().toString().substring(0,10);
                     if(dates.equals(txn_datetime)){
